@@ -298,3 +298,118 @@ body {
     font-weight: 500;
     line-height: normal;
 }
+
+.hello {
+    position: relative;
+    margin-top: 150px;
+}
+
+.hello_purpleright {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+}
+
+.hello_chel {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+
+.hello_title {
+    color: #E4E5EA;
+    font-family: sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hello_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hello_content_video {
+    display: flex;
+    align-items: flex-end;
+    gap: 28px;
+}
+
+.hello_content_video_minute {}
+
+.hello_content_video_minute_desc span {
+    font-family: sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hello_content_video_minute_desc {
+    width: 360px;
+    color: #E4E5EA;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 70px 0 50px 0;
+}
+
+.hello_content_video_play {}
+
+.hello_content_video_play_desc {
+    color: #E4E5EA;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 150px;
+    margin-top: 10px;
+}
+
+.hello_content_dolboeb {
+    position: relative;
+    width: 36%;
+}
+
+.hello_content_dolboeb_purplelight {
+    position: absolute;
+    left: -220px;
+    bottom: -400px;
+    width: 600px;
+    opacity: 0.9;
+    z-index: 1;
+}
+
+.hello_content_dolboeb_desc {
+    margin-top: 64px;
+    color: #E4E5EA;
+    width: 199px;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hello_content_dolboeb_misha {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+}
+
+.hello_content_dolboeb_purpleball {
+    position: absolute;
+    top: 215px;
+    right: 120px;
+}

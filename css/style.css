@@ -413,3 +413,77 @@ body {
     top: 215px;
     right: 120px;
 }
+
+.about {
+    margin-top: 150px;
+    position: relative;
+}
+
+.about_redlight {
+    position: absolute;
+    left: -120px;
+    top: -235px;
+    height: 500px;
+    width: 500px;
+}
+
+.about_title {
+    color: #E4E5EA;
+    font-family: sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.about_desc span {
+    font-family: sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about_desc {
+    margin: 70px 0 50px 0;
+    width: 389px;
+    color: #E4E5EA;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.about_info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_info_content h3 {
+    font-family: sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 5px;
+}
+
+.about_info_content p {
+    color: #E4E5EA;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
